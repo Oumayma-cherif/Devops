@@ -32,17 +32,15 @@ Docker Compose: Multi-container orchestration
 Prometheus & Grafana: Monitoring and visualization
 Installation
 
-Clone the Repository
+Clone the Repository : 
 git clone https://github.com/Oumayma-cherif/Devops.git  
 cd Devops  
 Backend Setup
 Navigate to the backend directory.
-Build the project using Maven:
-mvn clean install  
+Build the project using Maven: mvn clean install  
 Frontend Setup
 Navigate to the frontend directory.
-Install dependencies:
-npm install  
+Install dependencies: npm install  
 Run Docker Containers
 Use docker-compose to start all services:
 docker-compose up -d  
